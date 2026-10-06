@@ -2,8 +2,7 @@ cask "airscp" do
   version "1.0.0"
   sha256 "bb6d49b2503718df63d42a1d6222a585c150bf2dad04915adadd772d9ae0faae"
 
-  url "https://github.com/kleash/airscp/releases/download/v#{version}/AirSCP-#{version}.zip",
-      verified: "github.com/kleash/airscp/"
+  url "https://github.com/kleash/airscp/releases/download/v#{version}/AirSCP-#{version}.zip"
   name "AirSCP"
   desc "SCP and SFTP client with a two-pane browser and Remote Desktop"
   homepage "https://kleash.github.io/airscp/"
@@ -13,7 +12,7 @@ cask "airscp" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AirSCP.app"
 
