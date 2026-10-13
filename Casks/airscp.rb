@@ -1,6 +1,6 @@
 cask "airscp" do
-  version "1.1.0"
-  sha256 "dc6ba9c734084acc22e7c878fa390d56d26bee2167edeb71705e87a0cc3d2c2c"
+  version "1.2.0"
+  sha256 "67affd05add2a11757b2d128c1f5850c7f5a8c200a27a4d3228a5c178b606745"
 
   url "https://github.com/kleash/airscp/releases/download/v#{version}/AirSCP-#{version}.zip"
   name "AirSCP"
@@ -23,7 +23,7 @@ cask "airscp" do
   ]
 
   caveats <<~EOS
-    AirSCP 1.0.0 isn't notarized yet. The first time you open it, macOS says it can't check it:
+    AirSCP isn't notarized yet. The first time you open it, macOS says it can't check it:
     click Done, then System Settings > Privacy & Security > Open Anyway.
     https://kleash.github.io/airscp/getting-started/install.html
   EOS
