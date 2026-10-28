@@ -1,6 +1,6 @@
 cask "crate" do
-  version "1.1.0"
-  sha256 "5bb5f1952a3d809cf2e29fac84bd45be349398259dbe0d34d3a7014b4b7131fa"
+  version "1.1.1"
+  sha256 "01b946822daf0bc5603bc593ae21ec31caba598fee8bbabcadde8593117509df"
 
   url "https://github.com/kleash/crate/releases/download/v#{version}/Crate-#{version}.zip"
   name "Crate"
