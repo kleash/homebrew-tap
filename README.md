@@ -8,6 +8,8 @@ Homebrew casks for:
   create ZIP, 7-Zip, RAR, TAR and more.
 
 ```sh
-brew install --cask kleash/tap/airscp
-brew install --cask kleash/tap/crate
+brew trust --cask kleash/tap/airscp && brew install --cask kleash/tap/airscp
+brew trust --cask kleash/tap/crate && brew install --cask kleash/tap/crate
 ```
+
+Homebrew 7 loads casks from outside its own repository only once you trust them (`brew trust`).
