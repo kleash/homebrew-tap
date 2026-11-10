@@ -1,6 +1,6 @@
 cask "airsql" do
-  version "1.0.1"
-  sha256 "8068a64631c320daa365f887b4ea992b30fab6bd402233cc494c086e79a67d5e"
+  version "1.0.2"
+  sha256 "756937f42936e337fb92faf7440d65b5f8c8c01d6c4ac5a1f931990419a9611e"
 
   url "https://github.com/kleash/airsql/releases/download/v#{version}/AirSQL-#{version}.zip"
   name "AirSQL"
