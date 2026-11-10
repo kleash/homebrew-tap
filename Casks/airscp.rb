@@ -1,6 +1,6 @@
 cask "airscp" do
-  version "2.0.6"
-  sha256 "1b975b3462f3f2c8c71974e873fd6557dee3510442f297bb40f42538f82d95ee"
+  version "2.0.7"
+  sha256 "70551221fc0b7ab730a7d38f30f0d6847fce8939c36be4b4f6b55e220b6e8604"
 
   url "https://github.com/kleash/airscp/releases/download/v#{version}/AirSCP-#{version}.zip"
   name "AirSCP"
