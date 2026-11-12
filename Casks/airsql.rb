@@ -1,10 +1,10 @@
 cask "airsql" do
-  version "1.0.2"
-  sha256 "756937f42936e337fb92faf7440d65b5f8c8c01d6c4ac5a1f931990419a9611e"
+  version "1.1.0"
+  sha256 "a40e48a21ba702a32f9df10dd4de66285b73b39bbe912e10b79f7b3a8ec2b955"
 
   url "https://github.com/kleash/airsql/releases/download/v#{version}/AirSQL-#{version}.zip"
   name "AirSQL"
-  desc "MySQL and MariaDB client with SSH tunnels, a data grid and schema tools"
+  desc "MySQL, MariaDB and MongoDB client with SSH tunnels and visual query builders"
   homepage "https://kleash.github.io/airsql/"
 
   livecheck do
